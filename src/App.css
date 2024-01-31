@@ -207,14 +207,22 @@
 .inner-shadow{
   box-shadow: 0px 0px 5px 0px black inset;
 }
-
+/* 
 .bg-image1{
-  background: url("https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url("https://media.istockphoto.com/id/1724635550/vector/abstract-digital-technology-futuristic-big-data-blue-background-cyber-nano-information.jpg?s=612x612&w=0&k=20&c=Egqo7L9DfuEcHLZO4J7tZ35pRxdlD3325S02qjH7SRQ=");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
+} */
+
+.bg-img{
+  background-image: url("/src/asset/download.png");
+
 }
 
+.bg-color{
+  background-color: rgba(0,0,0,0.25);
+}
 .bg-image2{
   height: 100%;
   width: 100%;

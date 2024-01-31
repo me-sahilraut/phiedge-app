@@ -2,7 +2,7 @@ import React from 'react'
 
 const Approach = () => {
     return (
-        <div className='flex flex-col md:flex-row pt-[10rem] pb-[10rem]'>
+        <div className='flex flex-col md:flex-row pt-[10rem] '>
             <div className='md:w-2/4 bg-[#0C262A] h-[40rem] px-8 space-y-10 pt-16'>
                 <h1 className='text-5xl text-white font-semibold   ' data-aos="fade-down">PHI EDGE'S <span className='text-[#f5891d]'>3D APPROACH</span></h1>
                 <div className='flex space-x-7' data-aos="fade-right">

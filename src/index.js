@@ -8,6 +8,7 @@ import Home from './component/Home';
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Navigation from './component/Navigation';
 import AboutUs from './component/AboutUs';
+import Footer from './component/Footer';
 
 const AppLayout = () => {
 
@@ -15,6 +16,7 @@ const AppLayout = () => {
     <div className='overflow-hidden'>
       <Navigation />
       <Outlet />
+      <Footer />
     </div>
 
   )
