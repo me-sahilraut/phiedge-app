@@ -1,15 +1,47 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import './App.css';
+
 import reportWebVitals from './reportWebVitals';
+import Home from './component/Home';
+import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Navigation from './component/Navigation';
+import AboutUs from './component/AboutUs';
+
+const AppLayout = () => {
+
+  return (
+    <div className='overflow-hidden'>
+      <Navigation />
+      <Outlet />
+    </div>
+
+  )
+
+}
+
+const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/about",
+        element: <AboutUs />
+      },
+
+    ]
+  }
+])
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+root.render(<RouterProvider router={appRouter} />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
