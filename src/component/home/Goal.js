@@ -5,7 +5,7 @@ const Goal = () => {
     useEffect(() => {
         clearInterval(timer)
         timer = setInterval(() => {
-            if (counterState === 100) {
+            if (counterState === 70) {
                 clearInterval(timer)
                 return
             }

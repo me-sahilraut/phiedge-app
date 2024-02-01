@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css';
-
+import 'react-circular-progressbar/dist/styles.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './component/Home';
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';

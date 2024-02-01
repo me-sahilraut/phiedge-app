@@ -12,29 +12,29 @@ const Footer = () => {
                     <div className='text-white space-y-3'>
                         <h1 className='text-2xl font-bold text-[#f5891d]'>MENU</h1>
                         <ul className='text-lg font-medium space-y-2'>
-                            <li>Home</li>
-                            <li>About Us</li>
-                            <li>Business Verticals</li>
-                            <li>Clients</li>
-                            <li>Career</li>
-                            <li>News & Events</li>
-                            <li>Blog</li>
-                            <li>Contact Us</li>
+                            <li className='  hover:underline  hover:underline-offset-8 cursor-pointer'>Home</li>
+                            <li className='  hover:underline  hover:underline-offset-8 cursor-pointer'>About Us</li>
+                            <li className='  hover:underline  hover:underline-offset-8 cursor-pointer'>Business Verticals</li>
+                            <li className='  hover:underline  hover:underline-offset-8 cursor-pointer'>Clients</li>
+                            <li className='  hover:underline  hover:underline-offset-8 cursor-pointer'>Career</li>
+                            <li className='  hover:underline  hover:underline-offset-8 cursor-pointer'>News & Events</li>
+                            <li className='  hover:underline  hover:underline-offset-8 cursor-pointer'>Blog</li>
+                            <li className='  hover:underline  hover:underline-offset-8 cursor-pointer'>Contact Us</li>
                         </ul>
                     </div>
 
                     <div className='text-white w-[20rem] space-y-3'>
-                        <h1 className='text-2xl font-bold'>ADDRESS</h1>
+                        <h1 className='text-2xl font-bold text-[#f5891d]'>ADDRESS</h1>
                         <p className='text-lg font-medium'>Office 605, B Wing, Amar Business zone, Veerbhadra Nagar, Baner, Pune, Maharashtra 411045.</p>
                     </div>
 
                     <div className='text-white space-y-3'>
-                        <h1 className='text-2xl font-bold'>EMAIL</h1>
+                        <h1 className='text-2xl font-bold text-[#f5891d]'>EMAIL</h1>
                         <p className='text-lg font-medium'>admin@phiedge.co.in</p>
                     </div>
 
                     <div className='text-white space-y-3'>
-                        <h1 className='text-2xl font-bold'>CONTACT</h1>
+                        <h1 className='text-2xl font-bold text-[#f5891d]'>CONTACT</h1>
                         <ul className='text-lg font-medium space-y-3'>
                             <li>+91-8149425450</li>
                             <li>+91-9923043450</li>

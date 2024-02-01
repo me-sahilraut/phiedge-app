@@ -2,7 +2,7 @@ import React from 'react'
 
 const Values = () => {
     return (
-        <div>
+        <div className='bg-[#f9f9f9]'>
             <div className='flex lg:flex-row flex-col md:px-[2rem]  justify-center  overflow-hidden'>
                 <div className='  gap-5  shadow-xl border border-black-100   lg:w-1/4  mt-16 ml-10  values-block text-[#003459] ' data-aos="fade-right">
                     <img src='https://phiedge.co.in/wp-content/uploads/integrity-1.png' className=' bg-[#f5891d] rounded-lg w-[7rem] h-[7rem] object-contain mx-auto' alt='icon' />

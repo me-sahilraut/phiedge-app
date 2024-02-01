@@ -28,7 +28,7 @@ const Slider = () => {
         <div className=''>
             {/* <button className='font-bold text-lg' onClick={() => handelPrevImage()} >prev</button> */}
             <div className='w-3/5 h-full  pt-[20rem] px-7 pb-[16rem]'>
-                <h1 className='text-white text-6xl font-semibold '>{data[slideIndex]}</h1>
+                <h1 className='text-white text-6xl font-semibold ' data-aos="fade-right">{data[slideIndex]}</h1>
 
             </div>
             {/* <button className='font-bold text-lg' onClick={() => handelNextSlide()}>next</button> */}
